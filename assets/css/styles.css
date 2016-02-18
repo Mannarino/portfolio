@@ -1,0 +1,625 @@
+ul{
+padding: 0;
+}
+h3{
+	text-align: center;
+	
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	line-height: 2em;
+}
+
+footer{
+	padding: 10px;
+	height: 30px;
+	text-align: center;
+	line-height: 10px;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+hr{
+	width: 100%;
+}
+
+/*-------------------------
+	Estilos links del body
+--------------------------*/
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:none;
+}
+/*-----------------------*/
+
+
+
+/*-------------------------
+Contenedor principal presente
+en todas las paginas del sitio
+--------------------------*/
+section#contenido{
+max-width: 960px;
+margin: auto;
+}
+/*-----------------------*/
+
+	/*--- Pagina index ----*/
+							/*-------------------------
+							los articles del index
+							--------------------------*/
+							article#slider{
+								width:40%;
+								display: inline-block;
+								vertical-align: top;
+								margin:4%;
+								margin-top: 0;
+								margin-bottom: 0;
+								box-sizing:boder-box;
+
+							}
+
+							article#datos{
+								width: 40%;
+								display: inline-block;
+								vertical-align: top;
+								padding: 5%;
+								padding-top: 0;
+								margin-bottom: 0;
+								box-sizing:boder-box;
+							}
+
+							article#tipo1,article#tipo2,article#tipo3{
+								width: 26%;
+								display: inline-block;
+								vertical-align: top;
+								margin: 3%;
+								margin-top: 0;
+								margin-bottom: 5px;
+								box-sizing:boder-box;
+							}
+							/*-----------------------*/
+							/*-------------------------
+							formulario
+							--------------------------*/
+		
+
+
+							.uneditable-input {
+							  border: 2px solid #D7DADD;
+							  color: #34495E;
+							  margin-top: 6px;
+							  font-size: 15px;
+							  padding: 8px 12px;
+							  height: 42px;
+							  border-radius: 6px;
+							  box-shadow: none;
+							 
+							  
+							  -webkit-transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+							  -moz-transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+							  -ms-transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+							  -o-transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+							  transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+							}
+
+							input[type="text"]:focus{
+							  border-color: #00ADEF;
+							  outline: 0;
+							  -webkit-box-shadow: none;
+							  box-shadow: none;
+							}
+
+
+							textarea {
+							    
+							    padding: 10px 10px;
+							    margin-bottom: 15px;
+							    min-height: 155px;
+							    margin-top: 6px;
+							    resize:none;
+							    width: 100%;
+							    
+							     }
+
+
+							    textarea:focus {
+							  border-color: #00ADEF;
+							  outline: 0;
+							  -webkit-box-shadow: none;
+							  box-shadow: none;
+							}
+
+							section#formulario{
+							  font-family: "Lato",Helvetica,Arial,sans-serif;
+							  margin: auto;
+							  
+							  min-height: 400px;
+							  margin-top: 60px;
+							  margin-bottom: 60px;
+							  -moz-border-radius: 5px; 
+							        -webkit-border-radius: 5px; 
+							          border-radius: 5px; 
+							           border: 2px solid #D7DADD;
+							           background: url(si.png);
+							box-sizing:boder-box;
+							}
+							article#a{
+							  width: 100%;
+							  display: inline-block;
+							  height: auto;
+							  vertical-align: top;
+							  
+							}
+							.for2{
+							   width: 48%;
+							   display:inline-block;
+							   height: 300px;
+							   vertical-align: top;
+							   
+							   
+							}
+							.for1{
+								display:inline-block;
+								width: 30%;
+								vertical-align: top;
+								vertical-align: top;
+								padding-left: 10%;
+							}
+
+							 section#formulario h3{
+												  margin-left: 160px;
+												  text-align: left;
+												  font-family: 'Poiret One', cursive;
+												}
+
+							label{
+							  font-family: 'Poiret One', cursive;
+							  font-weight: bold;
+							  
+							}
+
+							input[type="submit"] {
+							    border: 2px solid #D7DADD;
+							    color: #4e4e4e;
+							    background: transparent;
+							    margin-right: 5px;
+							    margin-bottom: 30px;
+							    padding: 8px 20px;
+							    font-weight: 900;
+							    font-size: 15px;
+							    letter-spacing: -0.02em;
+							    text-shadow: none;
+							    border-radius: 6px;
+							    -webkit-transition: all 200ms ease-in 0s;
+							    -moz-transition: all 200ms ease-in 0s;
+							    -o-transition: all 200ms ease-in 0s;
+							    -ms-transition: all 200ms ease-in 0s;
+							    transition: all 200ms ease-in 0s;
+							    box-shadow: none;
+							    margin-left: 10%;
+							     }
+							  
+							input[type="submit"]:hover {
+							  background: #00ADEF;
+							  color: #fff; }
+							/* fin formulario*/		
+							/* divs con las respeustas ajax */
+							#carga{
+									 text-align: center;
+									 margin: auto;
+									 width: 100%;
+									 
+									 display: none;
+
+									 margin-top: 160px;
+									
+									 min-height: 400px;
+									}
+						#correcto{
+				                     color: green;
+				                     font-family: 'Poiret One', cursive;
+				                     font-weight: bold;
+				                     text-align: center;
+				                     margin: auto;
+									 min-height: 400px;
+									 width: 100%;
+									 margin-top: 60px;
+									 margin-bottom: 60px;
+									 
+				                     font-size: 18px;
+				                  }
+				           /* ---------------------------------- */ 
+
+/*-------------------------
+estilos de habilidades.html  (habilidades web)
+--------------------------*/
+section#estudios{
+	margin: auto;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+section#habilidad{
+	width: 45%;
+	margin: auto;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 3%;
+	text-align: center;
+}
+section#habilidad ul{
+	list-style: none;
+}
+/*-----------------------*/
+/*-------------------------
+estilos de portfolio.html  
+--------------------------*/
+section#portfolio{
+	margin: auto;
+	width: 80%;
+       
+
+}
+
+
+section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+	min-height: 200px;
+	width:79%;
+
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #D7DADD;
+
+	padding: 30px;
+	border-radius: 15px;
+
+}
+section#portfolio{
+	text-align: center;
+}
+section#portfolio p{
+	width: 80%;
+	margin-left: 30px;
+	text-align: left;
+}
+
+.proyecto1-a,.proyecto1-b{
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+}
+
+.proyecto1-a img{
+	width: 100%;
+	
+}
+
+
+.proyecto1-b {
+		text-align: left;
+		width: 65%;
+}
+.proyecto1-b p{
+		margin: 0px;
+		width: 100%;
+		padding: 0px 10px;
+
+}
+
+.proyecto1-a a img:hover{
+
+	box-shadow: 0px 0px 10px black;
+	transform: scale(1.03);
+}
+.activo{
+	box-shadow: 0px 0px 10px black;
+	opacity: 0.5;
+	transform: translate( 0px, -30px);
+
+}
+section#proyecto0{
+	margin: auto;
+}
+
+section#proyecto0 article{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px;
+    color: #C09853;
+    margin-bottom: 18px;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+
+}
+
+figcaption{
+	width: 90px;
+	margin: auto;
+}
+
+.habilidad{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+}
+.progreso{
+	display: inline-block;
+	width: 40%;
+}
+.porcentaje{
+	display: inline-block;
+	width: 15%;
+	text-align: left;
+}	
+
+
+.actualiza{
+	background: #FFD700;
+	color:#4B0082;
+}
+
+/*-----------------------*/
+
+
+
+
+
+  @media screen and (max-width:850px){
+
+	.fancyNav li{
+					width: 49.60%;
+				}
+
+    article#slider{
+	
+				display: none !important;
+					
+				  }
+	article#datos{
+	
+				width: 90%;
+					
+				  }	
+	article#tipo1,article#tipo2{
+					width: 40%;
+					margin-left: 5%;
+					box-sizing:boder-box;
+				}	
+	article#tipo3{
+				width: 90%;
+				
+				box-sizing:boder-box;
+				
+			}	
+	article#tipo3 ul{
+				margin-left: 10%;
+				
+				box-sizing:boder-box;
+				
+			}
+	section#formulario{
+		width: 80%;
+									  		  
+  }									  		  
+  }
+@media screen and (min-width:851px){
+
+	
+
+    article#slider{
+	
+				display: inline-block !important;
+					
+				  }
+			  		  
+  }
+ /* media quieri para formulario*/
+  @media screen and (max-width:801px){
+
+	
+
+			    .for1,.for2{
+				
+							display: block;
+							width: 80%;	
+							  }
+				.for2{
+					margin-top: 60px;
+					padding-left: 10%;
+				}			  
+				.uneditable-input {
+				 
+				  width: 80%;
+				  
+				
+				}
+						  		  
+  }
+    @media screen and (min-width:802px){
+
+									    .for1,.for2{
+													display: inline-block;
+													width: 40%;	
+													vertical-align: top;
+													  }
+										.for2{
+												margin-top: 0px;
+											}			  		  
+									  }
+	/* fin mediarie para formulario*/								  
+@media screen and (max-width:530px){
+
+	.fancyNav li{
+					width: 99.60%;
+				}
+
+    
+	article#datos{
+	
+				width: 90%;
+					
+				  }	
+	article#tipo1,article#tipo2{
+					width: 90%;
+					margin-left: 5%;
+					box-sizing:boder-box;
+				}	
+	article#tipo3{
+				width: 90%;
+				
+				box-sizing:boder-box;
+				
+			}	
+	article#tipo3 ul{
+				margin-left: 7%;
+				
+				box-sizing:boder-box;
+				
+			}	
+	article#tipo1 ul{
+				margin-left: 3%;
+				
+				box-sizing:boder-box;
+				
+			}
+				section#portfolio{
+				text-align: center;
+				width: 100%;
+			}
+			section#portfolio p{
+				width: 100%;
+				margin-left: 30px;
+				text-align: left;
+			}
+	section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+								
+								width:100%;	
+								padding-left: 0%;
+								margin-left: 1%;
+								margin-top: 3%;
+								box-sizing:boder-box;
+		}
+		body{
+			margin: 0;
+		}
+							section#proyecto0 article{
+							
+							width: 90%;
+							margin: auto;
+
+						  
+						    padding-left: 0;
+						   
+
+												}
+							section#proyecto0 article p{
+							
+							margin: 6%;
+
+						}						
+	}
+	@media screen and (max-width:410px){
+
+	.fancyNav li{
+					width: 99.60%;
+				}
+
+    body{
+    	margin: 0;
+    }										  		  
+  }
+@media screen and (max-width:750px){
+
+	
+
+    section#habilidad{
+	
+				width: 90%;
+					
+				  }
+	section#estudios{
+	
+				width: 90%;
+				
+				  }	
+	section#estudios ul{
+	
+				margin-left: 10%;	
+				  }				  
+	section#estudios h3{
+	
+				margin-left: -10%;	
+				  }				  
+								.proyecto1-a,.proyecto1-b{
+								width: 100%;
+								text-align: center;
+								display: block;
+								
+							}	
+							section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+								min-height: 200px;
+								width:90%;
+
+								
+
+							}	
+							.proyecto1-b p{
+									margin: 0px;
+									width: 100%;
+									padding: 0px ;
+									text-align: center;
+
+							}	
+
+
+
+  }
+
+  @media screen and (min-width:751px){
+
+	
+
+    
+								.proyecto1-a,.proyecto1-b{
+								width: 40%;
+								text-align: center;
+								display: inline-block;
+								box-sizing:border-box;
+								
+							}	
+							.proyecto1-b{
+								width: 55%;
+								text-align: center;
+								display: inline-block;
+								box-sizing:border-box;
+								
+							}	
+							section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+								min-height: 200px;
+								width:100%;
+  		
+							  	padding-left: 0;
+
+							}	
+
+																  		  
+  }

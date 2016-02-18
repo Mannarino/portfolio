@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	         <meta charset="UTF-8">
+	         <title>Inicio</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+           <meta name="description" content="Sitio web con informacion personal en lo referente a mis estudios, trabajos realizados, objetivos profescionales, etc.">
+           
+           <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	        <!-- estilos -->
+           <link rel="stylesheet" href="assets/css/styles.css" />
+           <link rel="stylesheet" href="assets/css/menu.css" />
+           
+           <!---->
+          
+           
+           <!-- Goggle fonts -->
+           <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+           <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+           <!-- ************ -->
+
+           
+           <!-- todo lo referente al slider-->
+           <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+           <script src="js/jquery.flexslider-min.js"></script>
+           <script>
+             $(window).load(function() {
+                  $('.flexslider').flexslider({
+                    animation: "fade",
+                    animationSpeed: 1000,
+                    slideshowSpeed: 3000,
+                    controlNav: false, 
+
+                  });
+                });
+            </script>
+           <!-- ************ -->
+            <!-- script carga con fade de la pagina-->
+           <script type='text/javascript'>
+         
+                  $(document).ready(function() {
+                  $('article').hide();
+                  $("article").fadeIn(3500);
+
+                 
+                  
+                  });
+          
+           </script>
+           <!-- ************ -->
+           <!-- script desplazamiento lento para el srcoll al formulario de contacto-->
+           <script>
+            $(function(){
+
+                   $('a[href*=#]').click(function() {
+
+                   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                       && location.hostname == this.hostname) {
+
+                           var $target = $(this.hash);
+
+                           $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+                           if ($target.length) {
+
+                               var targetOffset = $target.offset().top;
+
+                               $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                               return false;
+
+                          }
+
+                     }
+
+   });
+
+});
+        </script>
+        <!-- ************ -->
+        <!-- script de enlaces para la validacion del formulario y el envio ajax -->
+         <script src="js/jquery.validate.min.js"></script>
+          <script src="js/localization/messages_es.js"></script>
+          <script src="js/js.js"></script>  
+          <!-- ************ -->      
+      </head>
+    </head>
+<body>
+  <!-- Menu de navegacion-->
+	<nav>
+            <ul class="fancyNav">
+                
+                <li id="home"><a href="index.html" class="homeIcon">Inicio</a></li>
+                <li id="news"><a href="habilidades.html">Habilidades Web </a></li>
+                
+                <li id="services"><a href="portfolio.html">Portfolio  </a></li>
+                <li id="contact"><a href="#comentarios-enviar">Contactame</a></li>
+
+            </ul>
+  </nav>
+  <!-- ************ -->   
+  <section id="contenido">
+
+            
+                          <!-- slider-->
+                          <article id="slider">
+                              <div class="flexslider">
+                                    <ul class="slides">
+                                            <li>
+                                              <img src="assets/img/slide1.jpg" /> 
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide2.jpg" /> 
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide3.jpg" />                              
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide4.jpg" />                             
+                                            </li>
+                                             <li>
+                                              <img src="assets/img/slide5.jpg" />                             
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide6.jpg" />                              
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide7.jpg" />                             
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide8.jpg" />                             
+                                            </li>
+                                            <li>
+                                              <img src="assets/img/slide9.jpg" />                             
+                                            </li>
+                                    </ul>
+                                  </div>
+                           </article>
+                           <!-- fin del contenedor del slider-->
+                           <article id="datos">
+
+                                     <p> Mi nombre es Mois&eacutes Mannarino, me recib&iacute de <b>T&eacutecnico Superior en Analisis de Sistemas</b>  en el <a href="http://www.isiv.edu.ar/" target="_blank">Instituto Superior de Inform&aacutetica Virasoro</a> . 
+                                      <br>
+                                      Decid&iacute dedicarme al desarrollo web, realizando gran parte de mi capacitaci&oacuten en el instituto <a href="http://www.educacionit.com/" target="_blank" >educacionIt</a> , donde realice la <a href="http://www.educacionit.com/carrera-prog-web"target="_blank"> carrera de programador web</a> , y otros cursos adicionales. 
+                                      <br>
+                                      <br>
+                                      Tengo conocimientos y habilidades tanto para el front-end como para el back-end. Aunque claramente me enfoque en el Front-end.
+                                      <br>
+                                      <br>
+                                      Manejo los siguientes lenguajes, tecnolog&iacuteas y frameworks: Javascript, jquery, ajax, css, css3, xhtml, html5,diseño responsive, php, mysql. 
+                                      </p> 
+                           </article>
+            
+            
+                         <article id="tipo1">
+                                <h3>Datos de inter&eacutes</h3>
+                                <ul>
+                                     <li>Atenci&oacuten al detalle y cr&iacutetico conmigo mismo.</li>
+                                     <li>Ganas de trabajar, aprender y seguir evolucionando.</li>
+                                     <li>Responsabilidad y disciplina.</li>
+                                     <li>Formaci&oacuten continua.</li>
+                                     <li> Perfil proactivo, curioso y automotivado</li>
+                                 </ul>
+                          </article>
+                          <article id="tipo2">
+                                 <h3>Objetivos</h3>
+                                      <p> Actualmente mi objetivo principal es encontrar la oportunidad de pasar a formar parte del equipo de desarrolladores de una empresa dedicada al mundo de internet.
+                                      <br>
+                                      Adquirir experiencia para mejorar mi capacidad, tomar nuevos desaf&iacuteos que me permitan desarrollar mis capacidades.</p>
+                          </article>
+                          <article id="tipo3">
+                                  <h3>En que ando metido</h3>
+                                        <ul>
+                                              <li>Continuando capacitación en bootstrap</li>
+                                              <li>Seguir a la últimas en tecnologías y tendencias del diseño adaptable a dispositivos.</li>
+                                              <li>Perfeccionar conocimientos de javascript, css3 y html5 cada día un poco más.</li>
+                                        </ul>
+                          </article>
+
+                          <!-- Fromulario de contacto-->
+                           <section id="formulario">
+                              <a name="comentarios-enviar"></a>
+                              <h3>Ingrese un comentario</h3>
+                                          
+                               <article id="a">           
+                                        <form action="ingresar.php" name="form" method="post" id="formu" >
+                                          <div class="for1">
+                                          <label for="">Nombre *</label>
+                                          <br>
+                                          <input type="text" id="nombre" class="uneditable-input" name="nombre" >
+                                          <br>
+                                          <br>
+                                          <label for="">Email *</label>
+                                          <br>
+                                          <input type="text" id="email" class="uneditable-input" name="email" >
+                                          <br>
+                                          <br>
+                                          
+                                          </div>
+                                         
+                                          <div class="for2">
+                                           <label for="">Comentario *</label>
+                                          <br><textarea name="comentario" id="textos" cols="26" rows="16" class="uneditable-input"  ></textarea>
+                                          <br>
+                                          </div>
+                                         <input type="submit" value="comentar" >
+                           </article>
+                
+                         
+                        </form>
+                        
+           
+                        </section>
+       
+                        <!-- Contiene el slider-->
+      
+       <!-- divs para las respeustas ajaxs-->
+        <div id="mostrar"></div>
+        <div id="carga"><img src="assets/img/loading.gif" alt="abrir"></div>           
+        <!-- ******* r-->    
+          <footer>
+                    <hr>
+                    <p>Desarrollado por Mois&eacutes Mannarino </p>
+          </footer>
+       
+       </section>
+        
+    </body>
+</html>
