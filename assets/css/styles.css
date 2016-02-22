@@ -13,13 +13,15 @@ body{
 
 footer{
 	padding: 10px;
-	height: 30px;
+	height: auto;
 	text-align: center;
 	line-height: 10px;
 	width: 100%;
 	margin: auto;
 	padding-bottom: 20px;
+	background: #f2f2f2;
 }
+
 
 hr{
 	width: 100%;
@@ -378,15 +380,93 @@ figcaption{
 }
 
 /*-----------------------*/
+/* Estilos footer*/
+.footer{
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li{
+	margin: 20px;
+}
+.footer img{
+	
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	transition: 2s ease;
+}
+.footer img:hover{
+	opacity: 0.8;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+.footer-1 {
+	text-align: left;
+}
+.footer-3{
+	text-align: right;
+}
+.footer-4{
+	display: block;
+	width: 100%;
+}
+/*-----------------------*/
+/*Media queri footer*/
+  @media screen and (max-width:850px){
 
+		.footer-1 ,.footer-2 {
+				
+				width: 45%;
+			}
+		.footer-3{
+			width: 100%;
+			height: 100px;
+		}	
+		.footer-3 ul li{
+			display: inline-block;
+			width: 24%;
+			text-align: center;
+			margin: 0px;
+		}						  		  
+  }
+  @media screen and (max-width:580px){
 
+		.footer-1 ,.footer-2 {
+				
+				width: 95%;
+			}
+		.footer-1{
+			text-align: center;
+			height: 200px;
+		}	
+							  		  
+  }
+  @media screen and (max-width:450px){
 
-
-
+		.footer-3 ul li{
+			display: block;
+			width: 100%;
+			text-align: center;
+			margin: 0px;
+			background: white;
+			margin-top: 1px;
+		}	
+		.footer-3{
+			width: 100%;
+			height: 150px;
+		}				  		  
+  }
+/*-----------------------*/
   @media screen and (max-width:850px){
 
 	.fancyNav li{
-					width: 49.60%;
+					width: 49.60% !important;
 				}
 
     article#slider{
@@ -469,7 +549,7 @@ figcaption{
 @media screen and (max-width:530px){
 
 	.fancyNav li{
-					width: 99.60%;
+					width: 99.60% !important;
 				}
 
     
@@ -540,7 +620,7 @@ figcaption{
 	@media screen and (max-width:410px){
 
 	.fancyNav li{
-					width: 99.60%;
+					width: 99.60% !important;
 				}
 
     body{
