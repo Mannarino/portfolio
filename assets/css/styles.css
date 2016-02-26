@@ -1,3 +1,16 @@
+main,
+header,
+footer,
+nav,
+section,
+figure,
+figcaption,
+aside{
+       display:block;
+      }
+a img{
+	border: 0px;
+}
 ul{
 padding: 0;
 }
