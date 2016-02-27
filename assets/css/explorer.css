@@ -1,0 +1,29 @@
+
+.fancyNav li a{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	
+	
+	
+	color: white;
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	
+}
+
+
+.fancyNav li a:hover{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	
+	background-color: white;
+	
+	color: black;
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	
+}
+
+.progreso {
+	width: 60px;
+}

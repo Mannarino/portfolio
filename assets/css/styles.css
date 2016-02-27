@@ -1,3 +1,4 @@
+/*css para compatibilidad de html5 con navefadores viejos*/
 main,
 header,
 footer,
@@ -8,9 +9,12 @@ figcaption,
 aside{
        display:block;
       }
+/****/
+/*sacando el borde azul a los enlaces con imagenes en internet explorer*/
 a img{
 	border: 0px;
 }
+/*****/
 ul{
 padding: 0;
 }
@@ -428,7 +432,12 @@ figcaption{
 .footer-4{
 	display: block;
 	width: 100%;
+	margin-top: 20px;
 }
+.footer-4 span{
+	margin-left: 15px;
+}
+
 /*-----------------------*/
 /*Media queri footer*/
   @media screen and (max-width:850px){
