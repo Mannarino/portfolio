@@ -292,7 +292,7 @@ section#portfolio{
 }
 
 
-section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 	min-height: 200px;
 	width:79%;
 
@@ -457,6 +457,17 @@ figcaption{
 			margin: 0px;
 		}						  		  
   }
+   @media screen and (max-width:695px){
+
+		
+		.footer-3{
+			width: 100%;
+			height: 60px;
+			margin-top: 30px;
+
+		}	
+							  		  
+  }
   @media screen and (max-width:580px){
 
 		.footer-1 ,.footer-2 {
@@ -467,7 +478,14 @@ figcaption{
 			text-align: center;
 			height: 200px;
 		}	
-							  		  
+		.footer-3{
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		span{
+			display: none;
+		}
+
   }
   @media screen and (max-width:450px){
 
@@ -482,6 +500,9 @@ figcaption{
 		.footer-3{
 			width: 100%;
 			height: 150px;
+		}
+		.footer-1{
+			height: 260px;
 		}				  		  
   }
 /*-----------------------*/
@@ -504,7 +525,7 @@ figcaption{
 	article#tipo1,article#tipo2{
 					width: 40%;
 					margin-left: 5%;
-					box-sizing:boder-box;
+					box-sizing:border-box;
 				}	
 	article#tipo3{
 				width: 90%;
@@ -612,7 +633,7 @@ figcaption{
 				margin-left: 30px;
 				text-align: left;
 			}
-	section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+	section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 								
 								width:100%;	
 								padding-left: 0%;
@@ -639,16 +660,7 @@ figcaption{
 
 						}						
 	}
-	@media screen and (max-width:410px){
-
-	.fancyNav li{
-					width: 99.60% !important;
-				}
-
-    body{
-    	margin: 0;
-    }										  		  
-  }
+	
 @media screen and (max-width:750px){
 
 	
@@ -715,7 +727,7 @@ figcaption{
 								box-sizing:border-box;
 								
 							}	
-							section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+							section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 								min-height: 200px;
 								width:100%;
   		
@@ -724,4 +736,18 @@ figcaption{
 							}	
 
 																  		  
+  }
+
+  @media screen and (max-width:410px){
+
+	.fancyNav li{
+					width: 99.60% !important;
+				}
+
+    body{
+    	margin: 0;
+    }
+  	section#formulario h3{
+  		margin-left: 100px;
+  	}									  		  
   }

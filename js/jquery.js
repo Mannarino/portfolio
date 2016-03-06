@@ -51,4 +51,14 @@ $(document).ready(function() {
            function achicarcinco(){
                   $('#imagen-cinco').removeClass('activo');
           }
+          
+
+          $('#img-seis').mouseover(agrandarseis);
+          $('#img-seis').mouseout(achicarseis);
+          function agrandarseis(){
+                  $('#imagen-seis').addClass('activo');
+          }
+           function achicarseis(){
+                  $('#imagen-seis').removeClass('activo');
+          }
           });
