@@ -291,8 +291,12 @@ section#portfolio{
 
 }
 
-
-section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+section#proyecto-8,
+section#proyecto-7,
+section#proyecto-6,
+section#proyecto-1,
+section#proyecto-2,
+section#proyecto-3,section#proyecto-4,section#proyecto-5{
 	min-height: 200px;
 	width:79%;
 
@@ -633,7 +637,7 @@ figcaption{
 				margin-left: 30px;
 				text-align: left;
 			}
-	section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+	section#proyecto-8,section#proyecto-7,section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 								
 								width:100%;	
 								padding-left: 0%;
@@ -689,7 +693,7 @@ figcaption{
 								display: block;
 								
 							}	
-							section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+							section#proyecto-8,section#proyecto-7,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 								min-height: 200px;
 								width:90%;
 
@@ -727,7 +731,7 @@ figcaption{
 								box-sizing:border-box;
 								
 							}	
-							section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
+							section#proyecto-8,section#proyecto-7,section#proyecto-6,section#proyecto-1,section#proyecto-2,section#proyecto-3,section#proyecto-4,section#proyecto-5{
 								min-height: 200px;
 								width:100%;
   		

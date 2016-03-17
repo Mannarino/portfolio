@@ -61,4 +61,22 @@ $(document).ready(function() {
            function achicarseis(){
                   $('#imagen-seis').removeClass('activo');
           }
+
+          $('#siete').mouseover(agrandarsiete);
+          $('#siete').mouseout(achicarsiete);
+          function agrandarsiete(){
+                  $('#imagen-siete').addClass('activo');
+          }
+           function achicarsiete(){
+                  $('#imagen-siete').removeClass('activo');
+          }
+
+           $('#img-ocho').mouseover(agrandarocho);
+          $('#img-ocho').mouseout(achicarocho);
+          function agrandarocho(){
+                  $('#imagen-ocho').addClass('activo');
+          }
+           function achicarocho(){
+                  $('#imagen-ocho').removeClass('activo');
+          }
           });
