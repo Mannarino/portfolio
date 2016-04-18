@@ -10,7 +10,7 @@
            
 	   <!-- estilos -->
            <link rel="stylesheet" href="assets/css/style.css" />
-           
+           <link rel="stylesheet" href="assets/css/menu.css" />
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
            <!---->
           
@@ -18,69 +18,17 @@
            <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
            <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
            <!-- ************ -->
-
-           <!-- todo lo referente al slider-->
-          
-           <script src="js/jquery.flexslider-min.js"></script>
-           <script>
-             $(window).load(function() {
-                  $('.flexslider').flexslider({
-                    animation: "fade",
-                    animationSpeed: 1000,
-                    slideshowSpeed: 3000,
-                    controlNav: false, 
-
-                  });
-                });
-            </script>
-            <!-- ************ -->
-            <!-- script carga con fade de la pagina-->
-            <script type='text/javascript'>
-         
+        <script type='text/javascript'>
+                 
                   $(document).ready(function() {
-                  $('article').hide();
-                  $("article").fadeIn(3500);
-
+                  $('section').hide();
+                  $('section').fadeIn(2300);
+                  
                   });
-          
-             </script>
+                  </script>
            <!-- ************ -->
-           <!-- script desplazamiento lento para el srcoll al formulario de contacto-->
-           <script>
-            $(function(){
-
-                   $('a[href*=#]').click(function() {
-
-                   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-                       && location.hostname == this.hostname) {
-
-                           var $target = $(this.hash);
-
-                           $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-                           if ($target.length) {
-
-                               var targetOffset = $target.offset().top;
-
-                               $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                               return false;
-
-                          }
-
-
-                     }
-
-                  });
-
-              });
-        </script>
-        <!-- ************ -->
-        <!-- script de enlaces para la validacion del formulario y el envio ajax -->
-         <script src="js/jquery.validate.min.js"></script>
-          <script src="js/localization/messages_es.js"></script>
-          <script src="js/js.js"></script>  
-          <!-- ************ --> 
+           
+       
             
           <!-- enable html5 javascript para compatibilidad de html5 con navegadores viejos -->   
           <!--[if lt IE 9]>
@@ -96,11 +44,7 @@
       </head>
     
 
-           <!-- script de enlaces para la validacion del formulario y el envio ajax -->
-           <script src="js/jquery.validate.min.js"></script>
-           <script src="js/localization/messages_es.js"></script>
-           <script src="js/js.js"></script>  
-           <!-- ************ -->      
+             
  </head>
     
  <body>
@@ -277,6 +221,22 @@
           </footer>
        
        </section>
-        
+        <script src="js/jquery.flexslider-min.js"></script>
+           <script>
+             $(window).load(function() {
+                  $('.flexslider').flexslider({
+                    animation: "fade",
+                    animationSpeed: 1000,
+                    slideshowSpeed: 3000,
+                    controlNav: false, 
+
+                  });
+                });
+            </script>
+             <!-- script de enlaces para la validacion del formulario y el envio ajax -->
+         <script src="js/jquery.validate.min.js"></script>
+          <script src="js/localization/messages_es.js"></script>
+          <script src="js/js.js"></script>  
+          <!-- ************ --> 
     </body>
 </html>
